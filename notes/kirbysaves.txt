@@ -5,7 +5,7 @@ $4C (76) bytes each, $26 bytes of save data repeated twice
 offset | desc
      0 | checksum for bytes $00-25
      1 | XOR checksum for ""
-     2 | File "% progression" (3F = 100%, which enables Extra)
+     2 | File "% progression" (3F = 0%, which enables Extra)
      3 | level progression (08 = Finish; 09 = Perfect)
    4-A | stage clear flags (first = level 7, last = level 1)
      B | (unused)
